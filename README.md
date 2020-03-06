@@ -9,13 +9,15 @@ soln: First_Name= input()
 Last_Name = input()
 print(Last_Name + ' ' + First_Name)
 
-3. Write a Python program to find the volume of a sphere with diameter 12 cm. Formula: V=4/3 * π * r 3
+3. Write a Python program to find the volume of a sphere with diameter 12 cm. Formula: V=4/3 * π * r**3
+
 soln: r = float(input())
 pi= 3.14
 V = 4.0/3.0 * pi * r**3
 print('The Volume of the Sphere is', V)
 
 4. Write a program which accepts a sequence of comma-separated numbers from console and generate a list.
+
 soln: x= str(input())
 
 list = x.split(",")
@@ -32,23 +34,23 @@ for i in list:
  
  5. Create the below pattern using nested for loop in Python.
 
-*
+#*
 
-* *
+#* *
 
-* * *
+#* * *
 
-* * * *
+#* * * *
 
-* * * * *
+#* * * * *
 
-* * * *
+#* * * *
 
-* * *
+#* * *
 
-* *
+#* *
 
-*
+#*
 
 soln: x = "*"
 n=input()
@@ -80,5 +82,6 @@ WE, THE PEOPLE OF INDIA,
   having solemnly resolved to constitute India into a SOVEREIGN, !
      SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC
         and to secure to all its citizens
+        
   soln: print("WE, THE PEOPLE OF INDIA,{} having solemnly resolved to constitute India into a SOVEREIGN,{}    SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC{}       and to secure to all its citizens"
        .format("\n","\n","\n","\n"))
